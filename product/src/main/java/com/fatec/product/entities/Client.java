@@ -15,8 +15,8 @@ public class Client implements java.io.Serializable {
     private Long id;
     private String name;
     private String email;
-    private String CPF;
-    private String Telefone;
+    private String cpf;
+    private String telefone;
     
     public Long getId() {
         return id;
@@ -37,16 +37,16 @@ public class Client implements java.io.Serializable {
         this.email = email;
     }
     public String getCPF() {
-        return CPF;
+        return cpf;
     }
     public void setCPF(String cPF) {
-        CPF = cPF;
+        this.cpf = cpf;
     }
     public String getTelefone() {
-        return Telefone;
+        return telefone;
     }
     public void setTelefone(String telefone) {
-        Telefone = telefone;
+        this.telefone = telefone;
     }
     
     
